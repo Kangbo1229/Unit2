@@ -41,5 +41,9 @@ public class KarelFigureEight {
         karel.turnLeft();
         karel.move();
         karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
     }
 }
