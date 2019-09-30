@@ -14,7 +14,14 @@ public class PointsAndRectangles {
         int L = scan.nextInt();
         System.out.print("Enter the width: ");
         int w = scan.nextInt();
-        System.out.print("java.awt.Point "+"[x="+x+",y="+y+"]");
+        Point p = new Point(x, y);
+        System.out.println(p);
+        Dimension d = new Dimension(L,w);
+        System.out.println(d);
+        Rectangle r = new Rectangle(p,d);
+        System.out.println(r);
+
+
 
 
 
