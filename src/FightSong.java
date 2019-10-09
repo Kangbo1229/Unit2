@@ -1,6 +1,7 @@
 public class FightSong {
 
     public static void chant() {
+
         System.out.println("Go, team, go!\nYou can do it.");
     }
     public static void name() {
