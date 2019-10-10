@@ -5,9 +5,11 @@ public class FightSong {
         System.out.println("Go, team, go!\nYou can do it.");
     }
     public static void name() {
+
         System.out.println("You're the best,\nIn the West.");
     }
     public static void blank() {
+
         System.out.println(" ");
     }
 
