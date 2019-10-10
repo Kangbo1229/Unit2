@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class TheNameGame {
     public static void Game (String name) {
         System.out.println(" ");
-        System.out.println(name+" "+name+", "+"bo-"+"B"+name.substring(1));
-        System.out.println("Banana-fana fo-"+name);
-        System.out.println("Fee-fi-mo-Mifty");
-        System.out.println(name.toUpperCase());
+        System.out.println(name+" "+name+", "+"bo-B"+name.substring(1));
+        System.out.println("Banana-fana fo-F"+name.substring(1));
+        System.out.println("Fee-fi-mo-M"+name.substring(1));
+        System.out.println(name.toUpperCase()+"!");
 
     }
 
