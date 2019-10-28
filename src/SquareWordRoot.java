@@ -1,3 +1,5 @@
+//Elly//10/28/19
+//get close to middle letter
 import java.util.Scanner;
 
 public class SquareWordRoot {
